@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="курсоваяFX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FX_jar</output-path>
+    <root id="archive" name="курсоваяFX.jar">
+      <element id="module-output" name="LearningSystemFX" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/gson-2.6.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

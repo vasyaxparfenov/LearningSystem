@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearnApp.tasks.StudentTasksController">
+   <children>
+      <Label layoutX="20.0" layoutY="16.0" prefHeight="28.0" prefWidth="549.0" text="В поле ответа запишите неправильное слово или словосочетание из предложения">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="54.0" prefHeight="25.0" prefWidth="17.0" text="1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="84.0" prefHeight="20.0" prefWidth="17.0" text="2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="114.0" prefHeight="20.0" prefWidth="17.0" text="3">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion1" layoutX="47.0" layoutY="54.0" prefHeight="25.0" prefWidth="386.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion2" layoutX="47.0" layoutY="83.0" prefHeight="20.0" prefWidth="386.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion3" layoutX="47.0" layoutY="114.0" prefHeight="20.0" prefWidth="386.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion4" layoutX="47.0" layoutY="143.0" prefHeight="20.0" prefWidth="386.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion5" layoutX="47.0" layoutY="173.0" prefHeight="20.0" prefWidth="386.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion6" layoutX="47.0" layoutY="203.0" prefHeight="20.0" prefWidth="386.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion7" layoutX="47.0" layoutY="235.0" prefHeight="20.0" prefWidth="386.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion8" layoutX="47.0" layoutY="268.0" prefHeight="20.0" prefWidth="386.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion9" layoutX="47.0" layoutY="301.0" prefHeight="20.0" prefWidth="386.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQuestion10" layoutX="47.0" layoutY="333.0" prefHeight="20.0" prefWidth="386.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="144.0" prefHeight="20.0" prefWidth="17.0" text="4">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="174.0" prefHeight="20.0" prefWidth="17.0" text="5">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="203.0" prefHeight="20.0" prefWidth="17.0" text="6">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="236.0" prefHeight="20.0" prefWidth="17.0" text="7">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="268.0" prefHeight="20.0" prefWidth="17.0" text="8">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="301.0" prefHeight="20.0" prefWidth="17.0" text="9">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="333.0" prefHeight="20.0" prefWidth="17.0" text="10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFieldAnswer1" layoutX="441.0" layoutY="54.0" prefHeight="3.0" prefWidth="112.0" promptText="Введите ответ" />
+      <TextField fx:id="txtFieldAnswer2" layoutX="441.0" layoutY="82.0" prefHeight="20.0" prefWidth="112.0" promptText="Введите ответ" />
+      <TextField fx:id="txtFieldAnswer3" layoutX="441.0" layoutY="112.0" prefHeight="20.0" prefWidth="112.0" promptText="Введите ответ" />
+      <TextField fx:id="txtFieldAnswer4" layoutX="442.0" layoutY="141.0" prefHeight="20.0" prefWidth="112.0" promptText="Введите ответ" />
+      <TextField fx:id="txtFieldAnswer5" layoutX="442.0" layoutY="171.0" prefHeight="20.0" prefWidth="112.0" promptText="Введите ответ" />
+      <TextField fx:id="txtFieldAnswer6" layoutX="442.0" layoutY="201.0" prefHeight="20.0" prefWidth="112.0" promptText="Введите ответ" />
+      <TextField fx:id="txtFieldAnswer7" layoutX="442.0" layoutY="233.0" prefHeight="20.0" prefWidth="112.0" promptText="Введите ответ" />
+      <TextField fx:id="txtFieldAnswer8" layoutX="442.0" layoutY="266.0" prefHeight="20.0" prefWidth="112.0" promptText="Введите ответ" />
+      <TextField fx:id="txtFieldAnswer9" layoutX="442.0" layoutY="299.0" prefHeight="20.0" prefWidth="112.0" promptText="Введите ответ" />
+      <TextField fx:id="txtFieldAnswer10" layoutX="442.0" layoutY="331.0" prefHeight="20.0" prefWidth="112.0" promptText="Введите ответ" />
+      <Button fx:id="saveBtn" layoutX="438.0" layoutY="377.0" mnemonicParsing="false" onAction="#saveAnswers" prefHeight="25.0" prefWidth="122.0" text="Сохранить ответы" />
+      <Button layoutX="256.0" layoutY="377.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="156.0" text="Завершить тестирование" />
+   </children>
+</AnchorPane>

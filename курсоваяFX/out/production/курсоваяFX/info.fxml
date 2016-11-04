@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearnApp.info.InfoController">
+   <children>
+      <TableView fx:id="tableStudents" editable="true" layoutY="70.0" prefHeight="285.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="fioTableColumn" prefWidth="209.0" text="ФИО" />
+          <TableColumn fx:id="groupTableColumn" prefWidth="49.0" text="Группа" />
+            <TableColumn fx:id="varTableColumn" prefWidth="55.0" text="Вариант" />
+            <TableColumn fx:id="markTableColumn" prefWidth="51.0" text="Оценка" />
+            <TableColumn fx:id="accessTableColumn" prefWidth="75.0" text="Доступ" />
+            <TableColumn fx:id="btnTableColumn" minWidth="0.0" prefWidth="82.0" />
+            <TableColumn fx:id="deleteTableColumn" prefWidth="78.0" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="579.0" text="Список учеников, зарегестрированных на курс ( контроль допуска к пересдачам )">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="492.0" layoutY="361.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="94.0" text="Назад" />
+      <Button fx:id="saveBtn" layoutX="356.0" layoutY="361.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="94.0" text="Сохранить" />
+   </children>
+</AnchorPane>

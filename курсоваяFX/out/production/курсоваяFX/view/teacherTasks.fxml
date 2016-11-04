@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="433.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearnApp.tasks.TeacherTasksController">
+   <children>
+      <TextField fx:id="textFieldQuestion1" layoutX="56.0" layoutY="48.0" prefHeight="25.0" prefWidth="368.0" promptText="Введите вопрос" />
+      <TextField fx:id="textFieldQuestion2" layoutX="56.0" layoutY="82.0" prefHeight="25.0" prefWidth="368.0" promptText="Введите вопрос" />
+      <TextField fx:id="textFieldQuestion3" layoutX="56.0" layoutY="115.0" prefHeight="25.0" prefWidth="368.0" promptText="Введите вопрос" />
+      <TextField fx:id="textFieldQuestion4" layoutX="56.0" layoutY="147.0" prefHeight="25.0" prefWidth="368.0" promptText="Введите вопрос" />
+      <TextField fx:id="textFieldQuestion5" layoutX="56.0" layoutY="179.0" prefHeight="25.0" prefWidth="368.0" promptText="Введите вопрос" />
+      <TextField fx:id="textFieldQuestion6" layoutX="56.0" layoutY="213.0" prefHeight="25.0" prefWidth="368.0" promptText="Введите вопрос" />
+      <TextField fx:id="textFieldQuestion7" layoutX="56.0" layoutY="245.0" prefHeight="25.0" prefWidth="368.0" promptText="Введите вопрос" />
+      <TextField fx:id="textFieldQuestion8" layoutX="56.0" layoutY="278.0" prefHeight="25.0" prefWidth="368.0" promptText="Введите вопрос" />
+      <TextField fx:id="textFieldQuestion9" layoutX="56.0" layoutY="317.0" prefHeight="25.0" prefWidth="368.0" promptText="Введите вопрос" />
+      <TextField fx:id="textFieldQuestion10" layoutX="56.0" layoutY="354.0" prefHeight="25.0" prefWidth="368.0" promptText="Введите вопрос" />
+      <TextField fx:id="textFieldAnswer1" layoutX="436.0" layoutY="48.0" promptText="Введите ответ" />
+      <TextField fx:id="textFieldAnswer2" layoutX="436.0" layoutY="82.0" prefHeight="25.0" prefWidth="149.0" promptText="Введите ответ" />
+      <TextField fx:id="textFieldAnswer3" layoutX="436.0" layoutY="115.0" promptText="Введите ответ" />
+      <TextField fx:id="textFieldAnswer4" layoutX="436.0" layoutY="147.0" promptText="Введите ответ" />
+      <TextField fx:id="textFieldAnswer5" layoutX="436.0" layoutY="179.0" promptText="Введите ответ" />
+      <TextField fx:id="textFieldAnswer6" layoutX="436.0" layoutY="213.0" promptText="Введите ответ" />
+      <TextField fx:id="textFieldAnswer7" layoutX="436.0" layoutY="245.0" promptText="Введите ответ" />
+      <TextField fx:id="textFieldAnswer8" layoutX="436.0" layoutY="278.0" promptText="Введите ответ" />
+      <TextField fx:id="textFieldAnswer9" layoutX="436.0" layoutY="317.0" promptText="Введите ответ" />
+      <TextField fx:id="textFieldAnswer10" layoutX="436.0" layoutY="354.0" promptText="Введите ответ" />
+      <TextField fx:id="textFieldNumber1" layoutX="10.0" layoutY="48.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="textFieldNumber2" layoutX="10.0" layoutY="82.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="textFieldNumber3" layoutX="10.0" layoutY="115.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="textFieldNumber4" layoutX="10.0" layoutY="147.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="textFieldNumber5" layoutX="10.0" layoutY="179.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="textFieldNumber6" layoutX="10.0" layoutY="213.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="textFieldNumber7" layoutX="10.0" layoutY="245.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="textFieldNumber8" layoutX="10.0" layoutY="278.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="textFieldNumber9" layoutX="10.0" layoutY="317.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="textFieldNumber10" layoutX="10.0" layoutY="354.0" prefHeight="25.0" prefWidth="32.0" />
+      <Button layoutX="467.0" layoutY="392.0" mnemonicParsing="false" onAction="#saveTasks" prefHeight="25.0" prefWidth="87.0" text="Сохранить" />
+      <Label layoutX="7.0" layoutY="14.0" text="Номер" />
+      <Label layoutX="215.0" layoutY="14.0" prefHeight="17.0" prefWidth="47.0" text="Вопрос" />
+      <Label layoutX="487.0" layoutY="14.0" prefHeight="17.0" prefWidth="47.0" text="Ответ" />
+   </children>
+</AnchorPane>

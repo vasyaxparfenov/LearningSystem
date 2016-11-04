@@ -1,0 +1,62 @@
+[
+  {
+    "group": "АС-141",
+    "var": "3",
+    "mark": 0,
+    "passed": true,
+    "access": "Не допущен",
+    "password": "random",
+    "login": "pavellev",
+    "FIO": "Вареник Павел Юрьевич"
+  },
+  {
+    "group": "АС-141",
+    "var": "2",
+    "mark": 0,
+    "passed": true,
+    "access": "Не допущен",
+    "password": "birdik",
+    "login": "zheka",
+    "FIO": "Бурдейный Евгений Степанович"
+  },
+  {
+    "group": "АС-142",
+    "var": "4",
+    "mark": 0,
+    "passed": false,
+    "access": "Допущен",
+    "password": "nissan",
+    "login": "moneymaker",
+    "FIO": "Желиба Ирина Юрьевна"
+  },
+  {
+    "group": "АС-141",
+    "var": "1",
+    "mark": 0,
+    "passed": false,
+    "access": "Допущен",
+    "password": "yolo",
+    "login": "andrutski",
+    "FIO": "Андруцаки Андрей Васильевич"
+  },
+  {
+    "group": "АС-141",
+    "var": "17",
+    "mark": 0,
+    "passed": false,
+    "access": "Допущен",
+    "password": "iloveopu1",
+    "login": "vasyaxparfenov@gmail.com",
+    "FIO": "Парфёнов Василий Юрьевич"
+  },
+  {
+    "group": "АС-141",
+    "var": "28",
+    "mark": 0,
+    "passed": false,
+    "access": "Допущен",
+    "password": "randorn",
+    "login": "stizamen",
+    "FIO": "Дорн Иван Николаевич"
+  }
+]

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearnApp.registration.RegistrationController">
+   <children>
+      <Pane layoutX="19.0" layoutY="32.0" prefHeight="309.0" prefWidth="362.0">
+         <children>
+            <Button layoutX="160.0" layoutY="190.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="50.0" prefWidth="75.0" text="OK" />
+            <Label layoutX="20.0" layoutY="14.0" prefHeight="33.0" prefWidth="59.0" text="Логин" />
+            <TextField fx:id="txtLogin" layoutX="86.0" layoutY="18.0" promptText="введите логин" />
+            <TextField fx:id="txtFIO" layoutX="86.0" layoutY="84.0" promptText="введите ФИО" />
+            <TextField fx:id="txtPassword" layoutX="86.0" layoutY="51.0" promptText="введите пароль" />
+            <Label layoutX="20.0" layoutY="47.0" prefHeight="33.0" prefWidth="59.0" text="Пароль" />
+            <Label layoutX="20.0" layoutY="80.0" prefHeight="33.0" prefWidth="59.0" text="ФИО" />
+            <Label layoutX="20.0" layoutY="113.0" prefHeight="33.0" prefWidth="59.0" text="Группа" />
+            <TextField fx:id="txtGroup" layoutX="86.0" layoutY="117.0" promptText="введите номер группы" />
+            <Label layoutX="20.0" layoutY="146.0" prefHeight="33.0" prefWidth="59.0" text="Вариант" />
+            <TextField fx:id="txtVar" layoutX="86.0" layoutY="150.0" promptText="введите вариант" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

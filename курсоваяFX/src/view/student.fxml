@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearnApp.student.StudentController">
+   <children>
+      <Label fx:id="fioLabel" layoutX="132.0" layoutY="14.0" prefHeight="72.0" prefWidth="336.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="groupLabel" layoutX="145.0" layoutY="86.0" prefHeight="32.0" prefWidth="75.0" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="129.0" prefHeight="32.0" prefWidth="85.0" text="Вариант :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="86.0" prefHeight="32.0" prefWidth="75.0" text="Группа :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="varLabel" layoutX="145.0" layoutY="129.0" prefHeight="32.0" prefWidth="40.0" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="mark" layoutX="63.0" layoutY="168.0" prefHeight="32.0" prefWidth="75.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCourse" layoutX="44.0" layoutY="269.0" mnemonicParsing="false" onAction="#showCourse" prefHeight="40.0" prefWidth="170.0" text="Курс">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnTest" layoutX="365.0" layoutY="269.0" mnemonicParsing="false" onAction="#showTest" prefHeight="40.0" prefWidth="170.0" text="Тест" textAlignment="JUSTIFY">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="markLabel" layoutX="145.0" layoutY="171.0" prefHeight="20.0" prefWidth="75.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="535.0" layoutY="14.0" mnemonicParsing="false" onAction="#exit" text="Выйти" />
+   </children>
+</AnchorPane>
